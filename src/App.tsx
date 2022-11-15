@@ -1,14 +1,14 @@
-import { Header } from "./components/Header";
-import { Sidebar } from "./components/Sidebar";
-import { Post } from "./components/Post";
 import styles from "./App.module.css";
+import { Header } from "./components/Header";
+import { Post } from "./components/Post";
+import { Sidebar } from "./components/Sidebar";
 import "./global.css";
 
 const posts = [
   {
     id: 1,
     author: {
-      avatarURL: "https://github.com/diego3g.png",
+      avatarUrl: "https://github.com/diego3g.png",
       name: "Diego Fernandes",
       role: "Web Developer",
     },
@@ -26,7 +26,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarURL: "https://github.com/maykbrito.png",
+      avatarUrl: "https://github.com/maykbrito.png",
       name: "Mayk Brito",
       role: "Web Developer",
     },
