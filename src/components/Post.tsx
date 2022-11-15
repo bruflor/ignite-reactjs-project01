@@ -22,7 +22,7 @@ interface PostProps {
 }
 
 export const Post = ({ author, content, publishedAt }: PostProps) => {
-  const [comments, setComments] = useState(["Bacana, ;)"]);
+  const [comments, setComments] = useState(["Muito bom, parabéns "]);
   const [newCommentText, setNewCommentText] = useState("");
 
   const publishedDateFormated = format(
